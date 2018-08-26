@@ -28,9 +28,17 @@ Once you have the Todo App running, you can run the tests in multiple ways menti
 
 **NOTE:** To run any of the commands below, you need to open up the terminal and go into the directory where this repo is installed
 
+### Run API and UI tests
+
+The following command will run both the API tests and the UI tests, and then open the test report for both tests:
+
+```
+npm run test
+```  
+
 ### Running the API tests
 
-To run the API tests, and run the following command:
+To run only the API tests, run the following command:
 
 ```
 npm run test:api
@@ -40,5 +48,19 @@ To run the API tests, and keep watch for any changes (re-running the API tests o
 
 ```
 npm run test:api:watch
+```  
+
+### Running the UI tests
+
+To run only the UI tests, run the following command:
+
+```
+npm run test:e2e:report
+```  
+
+To run the API tests, and keep watch for any changes (re-running the UI tests on code change):
+
+```
+npm run test:e2e:watch
 ```  
 
