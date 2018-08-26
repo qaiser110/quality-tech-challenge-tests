@@ -1,0 +1,5 @@
+--require test/helpers/globals
+--ui bdd
+--timeout 10000
+--reporter mochawesome
+--reporter-options autoOpen=true,quiet=true,reportDir=report/api,reportName=ViewReport,reportFilename=test-report,reportTitle=Todo\ App:\ API\ Test\ Report
