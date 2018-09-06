@@ -1,6 +1,6 @@
 # Test Harness for Todo App
 
-This is Automated Test Harness for the [Todo App](https://github.com/airtasker/quality-tech-challenge). It includes tests for both the Backend REST API and the Frontend GUI.
+This is Automated Test Harness for the Todo App. It includes tests for both the Backend REST API and the Frontend GUI.
 
 ## Setup
 
